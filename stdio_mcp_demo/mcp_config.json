@@ -1,10 +1,8 @@
 {
-    "mcp_config": {
-        "mcpServers": {
-            "hello-world-server": {
-                "type": "streamable_http",
-                "url": "http://localhost:8081/mcp"
-            }
+    "mcpServers": {
+        "hello-world-server": {
+            "type": "streamable_http",
+            "url": "http://localhost:8081/mcp"
         }
     }
 }
