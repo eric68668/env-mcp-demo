@@ -2,7 +2,7 @@
 
 set -e
 
-cd "hello_world_server"
+cd "hello_world"
 
 uv run python src/main.py
 
