@@ -2,10 +2,8 @@
 
 set -e
 
-cd "hello_world"
-
 start() {
-    uv run python src/main.py > stdout.log 2>&1 &
+    uv --directory hello_world run python src/main.py > stdout.log 2>&1 &
     SERVER_PID=$!
     echo "Server started with PID: $SERVER_PID"
 }

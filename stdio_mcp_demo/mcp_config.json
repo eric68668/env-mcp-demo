@@ -3,8 +3,12 @@
         "hello-world-server": {
             "type": "stdio",
             "command": "uv",
-            "args": ["run", "src/main.py"],
-            "cwd": "hello_world"
+            "args": [
+                "--directory",
+                "hello_world",
+                "run",
+                "src/main.py"
+            ]
         }
     }
 }
